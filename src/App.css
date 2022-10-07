@@ -2,20 +2,20 @@
   text-align: center;
 }
 
-#root > div > header > nav {
+#root>div>header>nav {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-img{
+img {
   width: 30%;
 }
 
-#root > div > main > section > article p {
+#root>div>main>section>article p {
   width: 40%;
   margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 }
 
 .App-link {
@@ -26,6 +26,7 @@ img{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
