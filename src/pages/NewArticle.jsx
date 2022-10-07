@@ -35,8 +35,8 @@ const item_id = unique_id.slice(0, 8);
                 <p>Article picture</p>
                  <input type="file" name="articlepicture" id="articlepic" onChange={(e) => setArticlePic(e.target.files[0])}/>
                 </div>
-                <p>Title :</p>
-                <input type="text" name="articletext" id="" placeholder="Enter your article text"  onChange={(e) => setArticletext(e.target.value)}/>
+                <p>Text :</p>
+                <textarea type="text" name="articletext" id="" placeholder="Enter your article text"  onChange={(e) => setArticletext(e.target.value)} rows="4" cols="50"/>
                 <button onClick={sendData}>Publish</button>
                 
             </div>
