@@ -20,7 +20,7 @@ const ArticleDetails = () => {
         console.log('2. From fetchDetail() ', article);
         setArticleDetail(article);
     */
-        fetch("http://localhost:5000/details/d492a2ac")
+        fetch(url)
         .then(res => res.json())
         .then(data => setArticleDetail(data));
         console.log('2. From fetchDetail() ', articleDetail);
@@ -30,7 +30,7 @@ const ArticleDetails = () => {
 
     return <>
       
-    <Link to="/"><p >Click here to go back </p></Link>
+    
 
     <h2 className='clsPopularMovies'>{articleDetail.id}</h2>
             
