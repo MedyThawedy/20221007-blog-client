@@ -7,7 +7,7 @@ const Article = ({article}) => {
 
     return (
         
-        <article >
+        <article  >
         <Link key={article.id} to={`/details/${article.id}`}>
         <h3>{article.articletitle} </h3>
         <img src={`http://localhost:5000/${article.articlepicture}`} alt={article.articletitle} />  </Link>
@@ -17,4 +17,4 @@ const Article = ({article}) => {
     )
 }
 
-export default Article
+export default Article;
